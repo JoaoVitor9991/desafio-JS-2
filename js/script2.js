@@ -1,4 +1,4 @@
-let lista = ['Maça', 'Banana', 'Mamão', 'Laranja', 'Uva', 'Monster', 'Limão', 'Pinga', 'Carvão', 'Essência']
+let lista = ['Maça', 'Banana', 'Mamão', 'Laranja', 'Uva', 'Monster', 'Limão', 'Pinga', 'Detergente', 'Essência']
 
 console.log(lista.length)
 
@@ -13,11 +13,11 @@ console.log (lista[0])
 
 let conteudo = '';
 let div = document.getElementById("textos");
-
+div.style.backgroundColor  ='lightblue'
 
 
 for (let i = 0; i < lista.length ; i++){
-    conteudo += '<h1>'+lista[i]+'</h1> <br>';
+    conteudo += '<h1>' + lista[i]+ '</h1> <br>';
 }
 
 div.innerHTML = conteudo;
