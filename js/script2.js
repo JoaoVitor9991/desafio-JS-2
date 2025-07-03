@@ -17,5 +17,6 @@ if(nome.length > 25){
 console.log (lista[0])
 
 for (let i = 0; i < lista.length ; i++){
-    console.log (lista [i] );
+   // console.log (lista [i] );
+   document.write('<h1>' + lista[i] + '</h1>');
 }
