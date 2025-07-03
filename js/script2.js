@@ -14,16 +14,8 @@ if(nome.length > 25){
     console.log("Nome pequeno")
 }
 
-window.onload = function() {
-    const lista = ['Maça', 'Banana', 'Mamão', 'Laranja', 'Uva', 'Monster', 'Limão', 'Pinga', 'Detergente', 'Essência'];
-    const divTextos = document.getElementById('textos');
+console.log (lista[0])
 
-    let htmlConteudo = '';
-
-    lista.forEach(item => {
-        htmlConteudo += `<h1>${item}</h1>`;
-    });
-
-    divTextos.innerHTML = htmlConteudo;
-};
-
+for (let i = 0; i < lista.length ; i++){
+    console.log (lista [i] );
+}
